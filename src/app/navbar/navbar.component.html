@@ -1,0 +1,14 @@
+<div class="navBar">
+  <ul class="nav nav-pills">
+    <li class="nav-item">
+      <a class="nav-link" routerLinkActive="active" [routerLink]="['login']">
+          <span [style.display] = "sessionService.isLogged ? 'none' : 'inherit' ">Login</span>
+          <span [style.display] = "!sessionService.isLogged ? 'none' : 'inherit' ">Log Out</span>
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link disabled" [class.disabled]="!sessionService.isLogged" routerLinkActive="active" [routerLink]="['users']">Users</a>
+    </li>
+  </ul>
+  <div class="welcome-user" [style.display] = "!sessionService.isLogged ? 'none' : 'inherit' " >Welcome: <span class="user-txt">{{sessionService.userFullName}}</span></div>
+</div>

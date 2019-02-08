@@ -1,0 +1,51 @@
+/* You can add global styles to this file, and also import other style files */
+@import "./../node_modules/bootstrap/dist/css/bootstrap.css";
+.siteWidth
+{
+    max-width: 800px;
+    margin: auto;
+}
+.welcome-msg
+{
+    align-content: center;
+    width: 100%;
+    padding: 40px;
+    text-align: center;
+    color: darkgrey;
+}
+.login-wrapper
+{
+    margin: 70px auto;
+    padding: 40px;
+    max-width: 500px;
+    background-color: rgb(240, 240, 240);
+}
+.userlist-wrapper
+{
+    margin: 70px auto;
+    padding: 40px;
+    max-width: 500px;
+    background-color: rgb(240, 240, 240);
+}
+.is-hidden
+{
+    display: none;
+}
+.navBar
+{
+    background-color: rgb(240, 240, 240);
+    padding: 20px;
+}
+.modal-open {
+    background-color: rgba(0, 0, 0, 0.11);
+}
+.welcome-user
+{
+    float: right;
+    margin: -20px 16px 0 0;
+    color: #838383;
+}
+.user-txt
+{
+    color: #b46600;
+}

@@ -1,35 +1,27 @@
-This is a users books listing application for a library. The application basically lists the users and books associated with them.
+# AngPublicLibrary
 
-There is no backend at this point of time. So please keep sample data in a json file along
-with the application Or use any Fake API services. The application should work on npm install , start command.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.0.
 
+## Development server
 
-## JSON Schema
-The json should contain user details and associated books. A User has username , password , User Given Name and books associated with him.Authentication framework is not the interest of this application.
-A book has book name , author , Withdrawn Date  associated with it. Your JSON schema should contain these details at the minimum.The asssociation betweek user and books in the schema is your design choice.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
+## Code scaffolding
 
-## There are three major screens in the application
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-#### Login Screen
-This is the login screen with User Name , Password and Login button ..On Clicking Login button , next screen or Invalid user name and password should be shown.On Successful login , the user will be navigated to User List screen .
-Login user name and password can be plain text comparison.No roles are necessary for this application.
+## Build
 
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-#### User List Screen
-The screen displays all the users and the number of books associated with user. Ideally it should look like below.Show Details button should be visible only to the currently logged in users account name. If John  logs in , he should see a button against his name only. This screen should only be accessible if a user logs into the application.
+## Running unit tests
 
-| Given Name        | Book Count           |   |
-| ------------- |:-------------:| -----:|
-| John       | 10 | [SHOW DETAILS button] |
-| Adam     | 6      |   |
-| Mark | 10      |     |
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
+## Running end-to-end tests
 
-#### Book Details Pop up screen
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-On clicking SHOW details button ,a pop up should be displayed. It shows all the list of books against the user.The page should show book name  , author name , withdrawn data and due date. Due date is after a month of Withdrawn date .Do not store the Due date data ; it should be calculated . 
+## Further help
 
-*Angular latest version with bootstrap should be used for developing this application. The data should be accessed from the json file or fake api using the RxJs framework.*
-*Please make all necessary assumptions to make the applicaiton work*
-*Please have enough data in the json/fake api so that application will look good*
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).

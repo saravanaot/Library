@@ -1,0 +1,63 @@
+{
+    "Users": [
+        {
+            "usr_id": 1,
+            "usr_name": "moos",
+            "usr_fname": "Mostafa Gamal",
+            "usr_email": "moscd3@gmail.com",
+            "usr_password": "moscd1"
+        },
+        {
+            "usr_id": 2,
+            "usr_name": "thePro12",
+            "usr_fname": "George",
+            "usr_email": "george@gmail.com",
+            "usr_password": "theSky_15"
+        },
+        {
+            "usr_id": 3,
+            "usr_name": "george1",
+            "usr_fname": "Nataly David",
+            "usr_email": "ntd_34@gmail.com",
+            "usr_password": "nataly2001"
+        }
+    ],
+    "Books": [
+        {
+            "b_name": "The Mind of Primitive Man",
+            "b_author": "Franz Boas",
+            "b_withdrawn": "2018-12-20",
+            "b_withuser":1
+        },
+        {
+            "b_name": "How Natives Think",
+            "b_author": "Lucien Lévy-Bruhl",
+            "b_withdrawn": "2019-01-01",
+            "b_withuser":2
+        },
+        {
+            "b_name": "The Rites of Passage",
+            "b_author": "Arnold van Gennep",
+            "b_withdrawn": "2019-01-02",
+            "b_withuser":1
+        },
+        {
+            "b_name": "Primitive Classification",
+            "b_author": "Émile Durkheim",
+            "b_withdrawn": "2018-12-05",
+            "b_withuser":2
+        },
+        {
+            "b_name": "The Andaman Islanders",
+            "b_author": "Alfred Radcliffe",
+            "b_withdrawn": "2018-12-14",
+            "b_withuser":1
+        },
+        {
+            "b_name": "TThe Nature of Culture",
+            "b_author": "Alfred L. Kroeber",
+            "b_withdrawn": "2019-01-05",
+            "b_withuser":3
+        }
+    ]
+}
